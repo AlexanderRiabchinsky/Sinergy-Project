@@ -1,6 +1,6 @@
 .gen{
     background-image: url(https://plus.unsplash.com/premium_photo-1664037539346-c962f17d64cb?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dW5pdmVyc2V8ZW58MHx8MHx8fDA%3D);
-    background-size: 100%;
+    background-size: cover;
     color: rgb(255, 255, 0);
     font-family: 'Pangolin', cursive;
 }
@@ -92,7 +92,6 @@ a:hover{
   }
   .carousel {
     font-size: 28px ;
-    width: 100%;
     padding: 0 18px;
   }
   .slide{
@@ -114,11 +113,10 @@ a:hover{
   h2{font-size: 26px;}
   .carousel {
     font-size: 22px ;
-    width: 100%;
     padding: 0 15px;
   }
   .slide{
-    height: 50vh;
+    height: 60vh;
     border-radius: 10px;
     margin: 5px;
   }
@@ -136,14 +134,12 @@ a:hover{
   h2{font-size: 18px;}
   .carousel {
     font-size: 16px ;
-    width: 80%;
     padding: 0 10px;
   }
   .slide{
-    height: 30vh;
+    height: 50vh;
     border-radius: 5px;
     margin: 2px;
-    flex: 1;
   }
   .slide h3{
     font-size: 12px;
