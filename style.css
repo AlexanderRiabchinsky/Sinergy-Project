@@ -5,8 +5,15 @@
     color: hover rgb(0, 255, 0);
     font-family: 'Pangolin', cursive;
 }
+
 .gen.nav-link{
   background-image: none;
+}
+.gen.nav-link:hover{
+  color: rgb(0, 255, 0);
+}
+.gen.navbar-brand:hover{
+  color: rgb(0, 255, 0);
 }
 .gen.navbar{
   background-image: none;
@@ -20,8 +27,6 @@
 .navbar-toggler{
   background-color: rgb(255, 255, 0);
 }
-
-/* @import url('https://github.com/googlefonts/pangolin');  */
 main{
   font-size: 30px;
 }
