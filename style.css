@@ -1,7 +1,7 @@
 .gen{
     background-image: url(https://plus.unsplash.com/premium_photo-1664037539346-c962f17d64cb?auto=format&fit=crop&q=60&w=600&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8dW5pdmVyc2V8ZW58MHx8MHx8fDA%3D);
     background-size: cover;
-    color: rgb(255, 255, 0);
+    color: rgb(255, 255, 50);
     font-family: 'Pangolin', cursive;
 }
 
@@ -9,10 +9,10 @@
   background-image: none;
 }
 .gen.nav-link:hover{
-  color: rgb(0, 255, 0);
+  color: rgb(255, 255, 200);
 }
 .gen.navbar-brand:hover{
-  color: rgb(0, 255, 0);
+  color: rgb(255, 255, 200);
 }
 .gen.navbar{
   background-image: none;
@@ -33,7 +33,7 @@ a{
   color: rgb(55,55,255);
 }
 a:hover{
-  color: rgb(0,255,0);
+  color: rgb(150,150,255);
 }
 
 * {
@@ -56,7 +56,7 @@ a:hover{
 }
 
 .slide{
-  height: 80vh;
+  height: 90vh;
   border-radius: 15px;
   margin: 10px;
   cursor: pointer;
@@ -95,7 +95,6 @@ a:hover{
     padding: 0 18px;
   }
   .slide{
-    height: 70vh;
     border-radius: 15px;
     margin: 8px;
   }
@@ -116,7 +115,6 @@ a:hover{
     padding: 0 15px;
   }
   .slide{
-    height: 60vh;
     border-radius: 10px;
     margin: 5px;
   }
@@ -137,7 +135,6 @@ a:hover{
     padding: 0 10px;
   }
   .slide{
-    height: 50vh;
     border-radius: 5px;
     margin: 2px;
   }
