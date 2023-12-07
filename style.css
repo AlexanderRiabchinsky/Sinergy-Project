@@ -33,10 +33,10 @@ main{
   font-size: 30px;
 }
 a{
-  color: rgb(55,55,255);
+  color: rgb(100,100,255);
 }
 a:hover{
-  color: rgb(150,150,255);
+  color: rgb(170,170,255);
 }
 
 * {
